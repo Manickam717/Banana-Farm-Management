@@ -4,9 +4,9 @@ import java.sql.*;
 import java.util.*;
 
 public class DatabaseManager {
-    private static final String URL = "jdbc:mysql://localhost:3306/banana_farm";
+    private static final String URL = "jdbc:mysql://localhost:3306/your_database_name";
     private static final String USER = "root";
-    private static final String PASSWORD = "1577";
+    private static final String PASSWORD = "your_password";
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);

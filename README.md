@@ -1,3 +1,5 @@
+## Banana Farm Management
+
 A Java console-based application to manage and store banana variety information, including name, season, growth duration, and soil pH requirements. This project uses JDBC to connect to a database securely and perform CRUD operations.
 
 ## Features
